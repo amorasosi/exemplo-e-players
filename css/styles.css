@@ -1,0 +1,42 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #1E1C21;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-grid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* navbar */
+
+.menu-principal{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-principal a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    text-transform: uppercase ;
+}
+
