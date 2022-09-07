@@ -7,20 +7,22 @@
 
 .cabecalho{
     background-color: #1E1C21;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
 }
 
 .container-grid{
     max-width: 1200px;
     margin: 0 auto;
+    border: 1px solid white;
+    display: flex;
+    height: 100%;
 }
 
 .header-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items:center;
 }
 
 /* navbar */
@@ -40,3 +42,31 @@
     text-transform: uppercase ;
 }
 
+
+/*************** MAIN ***********/
+
+.banner{
+    width: 1349px;
+    height: 602px;
+    background-color: #C31616;
+    background-image: url(../imagens/banner_pilotos.png);
+    background-repeat: no-repeat;
+    display: flex;
+
+    
+}
+/* caixa da liga inscreva-se */
+.banner-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100% !important;
+    border: 1px solid white;
+
+}
+
+
+.banner-info{
+    width: 500px;
+    border: 1px solid white;
+}
